@@ -4,8 +4,4 @@ import "./index.css";
 import Routes from "./App.jsx";
 import { HashRouter as Router } from "react-router-dom";
 
-createRoot(document.getElementById("root")).render(
-  <Router basename="/FR_AT">
-    <Routes />
-  </Router>
-);
+createRoot(document.getElementById("root")).render(<App />);
