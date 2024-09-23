@@ -5,7 +5,7 @@ import Routes from "./App.jsx";
 import { HashRouter as Router } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <Router>
+  <Router basename="/FR_AT">
     <Routes />
   </Router>
 );
